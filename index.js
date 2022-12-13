@@ -54,9 +54,10 @@ var questionsArray = [q1, q2, q3, q4, q5];
 
 
 function game() {
-  for (var i = 0; i <5; i++)
-    var currentQuestions = questionsArray[i];
-  play(currentQuestions.question, currentQuestions.answer)
+  for (var i = 0; i <5; i++){
+    var currentQuestion = questionsArray[i];
+  play(currentQuestion.question, currentQuestion.answer)
+}
 }
 
 
